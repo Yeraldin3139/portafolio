@@ -14,7 +14,7 @@ const dataEs = {
   academica: [
     { id: 1, titulo: "Bachiller Academica", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011-2021", descripcion: "graduada con certificacion de exelencia en puntualidad" },
     { id: 2, titulo: "Estudiante de artes", institucion: "Academia Rumipamba", periodo: "2022-2026", descripcion: "reforzando mis conocimientos y desarollando mejor mi habilidad en arte(pintura, dibujo,diseño y otros)" },
-    { id: 3, titulo: "Ingenieria de Software", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2023 - Actualidad", descripcion: "Estudiante de quinto semestre, aprendiendo desarrollo web, bases de datos y programación orientada a objetos" },
+    { id: 3, titulo: "Ingenieria de Software", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Actualidad", descripcion: "Estudiante de quinto semestre, aprendiendo desarrollo web, bases de datos y programación orientada a objetos" },
   ],
   laboral: [
     { id: 1, titulo: "Proyecto Académico Frontend", institucion: "Universidad Cooperativa de Colombia", periodo: "2024", descripcion: "Desarrollo de interfaces web con React y Tailwind CSS para proyectos universitarios" },
@@ -26,7 +26,7 @@ const dataEn = {
   academica: [
     { id: 1, titulo: "High School Graduate", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011-2021", descripcion: "Graduated with excellence certification in punctuality" },
     { id: 2, titulo: "Arts Student", institucion: "Academia Rumipamba", periodo: "2022-2026", descripcion: "Strengthening my knowledge and developing my skills in art (painting, drawing, design and others)" },
-    { id: 3, titulo: "Software Engineering", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2023 - Present", descripcion: "Fifth semester student, learning web development, databases and object-oriented programming" },
+    { id: 3, titulo: "Software Engineering", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Present", descripcion: "Fifth semester student, learning web development, databases and object-oriented programming" },
   ],
   laboral: [
     { id: 1, titulo: "Frontend Academic Project", institucion: "Universidad Cooperativa de Colombia", periodo: "2024", descripcion: "Web interface development with React and Tailwind CSS for university projects" },
