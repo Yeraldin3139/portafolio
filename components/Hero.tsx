@@ -1,79 +1,78 @@
 "use client";
 
 import Image from "next/image";
+import { useApp } from "@/app/context";
 
 export default function Hero() {
+  const { darkMode, lang } = useApp();
+
   return (
     <section
       id="inicio"
-      className="min-h-screen flex flex-col items-center justify-center px-6 pt-20"
-      style={{ backgroundColor: "#ffffff" }}
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "80px 24px 40px",
+        backgroundColor: darkMode ? "#0D1F1A" : "#ffffff",
+        transition: "background-color 0.3s",
+      }}
     >
-      <div className="flex flex-col items-center text-center gap-6 max-w-2xl mx-auto">
+      <div style={{
+        display: "flex", flexDirection: "column",
+        alignItems: "center", textAlign: "center",
+        gap: "24px", maxWidth: "672px", margin: "0 auto"
+      }}>
 
-        {/* Foto circular */}
-        <div
-          className="relative w-40 h-40 rounded-full overflow-hidden border-4 shadow-lg"
-          style={{ borderColor: "#2D9B83" }}
-        >
-          <Image
-            src="/images/foto.jpg"
-            alt="Foto de Yeraldin"
-            fill
-            className="object-cover"
-            priority
-          />
+        {/* Foto */}
+        <div style={{
+          width: "160px", height: "160px", borderRadius: "50%",
+          overflow: "hidden", border: "4px solid #2D9B83",
+          boxShadow: "0 4px 20px rgba(45,155,131,0.3)",
+          position: "relative", backgroundColor: "#1a1a1a"
+        }}>
+          <Image src="/images/foto.jpg" alt="Yeraldin" fill style={{ objectFit: "cover" }} priority />
         </div>
 
-        {/* Título */}
-        <div className="flex flex-col gap-2">
-          <h1
-            className="text-4xl md:text-5xl font-extrabold"
-            style={{ color: "#1a1a1a" }}
-          >
-            Hola, soy Yeraldin
+        {/* Textos */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <h1 style={{
+            fontSize: "clamp(2rem, 5vw, 3rem)",
+            fontWeight: "800",
+            color: darkMode ? "#ffffff" : "#1a1a1a",
+          }}>
+            {lang === "es" ? "Hola, soy Yeraldin" : "Hi, I'm Yeraldin"}
           </h1>
-
-          {/* Subtítulo */}
-          <p
-            className="text-lg md:text-xl font-medium"
-            style={{ color: "#2D9B83" }}
-          >
-            Estudiante de ingenieria de software
+          <p style={{ fontSize: "1.125rem", fontWeight: "500", color: "#2D9B83" }}>
+            {lang === "es" ? "Estudiante de ingenieria de software" : "Software engineering student"}
           </p>
-
-          {/* Universidad */}
-          <p
-            className="text-sm md:text-base"
-            style={{ color: "#888888" }}
-          >
-            Universidad Cooperativa de Colombia Campus Pasto
+          <p style={{ fontSize: "0.875rem", color: darkMode ? "#aaaaaa" : "#888888" }}>
+            {lang === "es"
+              ? "Universidad Cooperativa de Colombia Campus Pasto"
+              : "Universidad Cooperativa de Colombia Campus Pasto"}
           </p>
         </div>
 
-        {/* Botón Descargar CV */}
+        {/* Botón CV */}
         <a
           href="/cv.pdf"
           download
-          className="flex items-center gap-2 px-8 py-3 rounded-xl text-white font-semibold
-                     transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-md"
-          style={{ backgroundColor: "#2D9B83" }}
+          style={{
+            display: "flex", alignItems: "center", gap: "8px",
+            padding: "12px 32px", borderRadius: "12px",
+            backgroundColor: "#2D9B83", color: "white",
+            fontWeight: "600", fontSize: "0.875rem",
+            textDecoration: "none", transition: "opacity 0.2s",
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.opacity = "0.85")}
+          onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-            />
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
-          Descargar CV
+          {lang === "es" ? "Descargar CV" : "Download CV"}
         </a>
 
       </div>
