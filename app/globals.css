@@ -15,9 +15,19 @@ html {
 body {
   background-color: #ffffff;
   color: #1a1a1a;
+  font-family: "Inter", sans-serif;
 }
 
-/* Scrollbar personalizado */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: inline-block;
+  flex-shrink: 0;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
