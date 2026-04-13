@@ -30,8 +30,8 @@ const dataEn = {
     { id: 3, titulo: "Software Engineering", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Present", descripcion: "Fifth semester student, learning web development, databases and object-oriented programming" },
   ],
   laboral: [
-    { id: 1, titulo: "Frontend Academic Project", institucion: "Universidad Cooperativa de Colombia", periodo: "2024", descripcion: "Web interface development with React and Tailwind CSS for university projects" },
-    { id: 2, titulo: "Digital Design and Art", institucion: "Freelance", periodo: "2022 - Present", descripcion: "Creation of digital illustrations, graphic design and painting as a complementary activity" },
+    { id: 1, titulo: " Civil Registry Assistant", institucion: " Third Notary Office of Pasto", periodo: "2022-2026", descripcion: " Civil Registry Assistant" },
+    { id: 2, titulo: " Sales and Production", institucion: "Freelance", periodo: "2022 - Present", descripcion: " Sales and production of agricultural and artisanal products, leather goods, and the creation and sale of artwork" },
   ],
 };
 
