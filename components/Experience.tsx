@@ -17,10 +17,11 @@ const dataEs = {
     { id: 3, titulo: "Ingenieria de Software", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Actualidad", descripcion: "Estudiante de quinto semestre, aprendiendo desarrollo web, bases de datos y programación orientada a objetos" },
   ],
   laboral: [
-    { id: 1, titulo: "Proyecto Académico Frontend", institucion: "Universidad Cooperativa de Colombia", periodo: "2024", descripcion: "Desarrollo de interfaces web con React y Tailwind CSS para proyectos universitarios" },
-    { id: 2, titulo: "Diseño y Arte Digital", institucion: "Independiente", periodo: "2022 - Actualidad", descripcion: "Creación de ilustraciones digitales, diseño gráfico y pintura como actividad complementaria" },
+    { id: 1, titulo: "Asistente registro civil", institucion: "Notaria Tercera Pasto Nariño", periodo: "2022-2026", descripcion: "Asistente registro civil" },
+    { id: 2, titulo: "venta y produccion", institucion: "Independiente", periodo: "2022 - Actualidad", descripcion: "venta y produccion de productos agricolas, artesanales, maroquineria y creación y venta de productos de arte" },
   ],
 };
+
 
 const dataEn = {
   academica: [
