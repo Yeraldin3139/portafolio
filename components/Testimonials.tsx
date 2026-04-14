@@ -10,7 +10,7 @@ const testimoniosEs = [
 
 const testimoniosEn = [
   { id: 1, text: "Yeraldin is a very dedicated and committed student. She always looks for the best solution.", name: "UCC Teacher", role: "Engineering Professor", initial: "T" },
-  { id: 2, text: "Yeraldin, Yeraldin stands out for the passion and responsibility she brings to every task and every dream. She has a great talent for analyzing situations and creatively solving everything she sets her mind to.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
+  { id: 2, text: "Yeraldin, stands out for the passion and responsibility she brings to every task and every dream. She has a great talent for analyzing situations and creatively solving everything she sets her mind to.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
   { id: 3, text: "She has a great ability to learn new technologies and apply them practically in real projects.", name: "Project Mentor", role: "Senior Developer", initial: "M" },
 ];
 
