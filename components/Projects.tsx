@@ -3,13 +3,13 @@
 import { useApp } from "@/app/context";
 
 const proyectosEs = [
-  { id: 1, title: "Truck-Expenses-and-income", description: "Plataforma de gestion de gastos e ingresos de un camion", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://truck-expenses-and-income-frontend.onrender.com/" },
+  { id: 1, title: "Truck-Expenses-and-income", description: "Plataforma de gestion de gastos e ingresos de un camion", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://truck-expenses-and-income-frontend.onrender.com/", demo: null },
   { id: 2, title: "Reproductor de musica", description: "pagina de reproduccion de musica", language: "Python", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
   { id: 3, title: "Reloj", description: "pagina reloj", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
 ];
 
 const proyectosEn = [
-  { id: 1, title: "Truck-Expenses-and-income", description: "Platform for managing truck expenses and income", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://truck-expenses-and-income-frontend.onrender.com/" },
+  { id: 1, title: "Truck-Expenses-and-income", description: "Platform for managing truck expenses and income", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://truck-expenses-and-income-frontend.onrender.com/", demo: null },
   { id: 2, title: "Music Player", description: "Music reproduction page", language: "Python", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
   { id: 3, title: "Clock", description: "Clock page", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: null , demo: null },
 ];
