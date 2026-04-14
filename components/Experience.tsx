@@ -31,7 +31,7 @@ const dataEn = {
   ],
   laboral: [
     { id: 1, titulo: " Civil Registry Assistant", institucion: " Third Notary Office of Pasto", periodo: "2022-2026", descripcion: " Civil Registry Assistant" },
-    { id: 2, titulo: " Sales and Production", institucion: "Freelance", periodo: "2022 - Present", descripcion: " Sales and production of agricultural and artisanal products, leather goods, and the creation and sale of artwork" },
+    { id: 2, titulo: " Sales and Production", institucion: "Freelance", periodo: "2022 - Present", descripcion: " Sales and production of agricultural and artisanal products, leather goods, and art products" },
   ],
 };
 
