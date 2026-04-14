@@ -3,15 +3,15 @@
 import { useApp } from "@/app/context";
 
 const proyectosEs = [
-  { id: 1, title: "Truck-Expenses-and-income", description: "Plataforma de gestion de gastos e ingresos de un camion", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://vercel.com" },
-  { id: 2, title: "Reproductor de musica", description: "pagina de reproduccion de musica", language: "Python", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://vercel.com" },
-  { id: 3, title: "Reloj", description: "pagina reloj", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: null },
+  { id: 1, title: "Truck-Expenses-and-income", description: "Plataforma de gestion de gastos e ingresos de un camion", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://truck-expenses-and-income-frontend.onrender.com/" },
+  { id: 2, title: "Reproductor de musica", description: "pagina de reproduccion de musica", language: "Python", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
+  { id: 3, title: "Reloj", description: "pagina reloj", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
 ];
 
 const proyectosEn = [
-  { id: 1, title: "Truck-Expenses-and-income", description: "Platform for managing truck expenses and income", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://vercel.com" },
-  { id: 2, title: "Music Player", description: "Music reproduction page", language: "Python", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://vercel.com" },
-  { id: 3, title: "Clock", description: "Clock page", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: null },
+  { id: 1, title: "Truck-Expenses-and-income", description: "Platform for managing truck expenses and income", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: "https://vercel.com", demo: "https://truck-expenses-and-income-frontend.onrender.com/" },
+  { id: 2, title: "Music Player", description: "Music reproduction page", language: "Python", github: "https://github.com/Yeraldin3139", vercel: null, demo: null },
+  { id: 3, title: "Clock", description: "Clock page", language: "JavaScript", github: "https://github.com/Yeraldin3139", vercel: null , demo: null },
 ];
 
 export default function Projects() {
@@ -86,15 +86,17 @@ export default function Projects() {
                 </a>
 
                 <div style={{ display: "flex", gap: "12px" }}>
-                  <a href={project.vercel} target="_blank" rel="noopener noreferrer" style={{
-                    flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
-                    padding: "8px", borderRadius: "12px",
-                    backgroundColor: darkMode ? "#0D1F1A" : "#E8F5F3",
-                    color: "#2D9B83", border: "1px solid #B2DFDB",
-                    fontSize: "0.875rem", fontWeight: "500", textDecoration: "none",
-                  }}>
-                    Vercel
-                  </a>
+                  {project.vercel && (
+                    <a href={project.vercel} target="_blank" rel="noopener noreferrer" style={{
+                      flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
+                      padding: "8px", borderRadius: "12px",
+                      backgroundColor: darkMode ? "#0D1F1A" : "#E8F5F3",
+                      color: "#2D9B83", border: "1px solid #B2DFDB",
+                      fontSize: "0.875rem", fontWeight: "500", textDecoration: "none",
+                    }}>
+                      Vercel
+                    </a>
+                  )}
                   {project.demo && (
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" style={{
                       flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
