@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Links */}
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <h4 style={{ fontSize: "0.75rem", fontWeight: "700", textTransform: "uppercase", letterSpacing: "0.1em", color: "#2D9B83" }}>
-              {lang === "es" ? "Sígueme en" : "Follow me"}
+              {lang === "es" ? "También puedes ver" : "Also check out"}
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
               {links.map((link) => (
