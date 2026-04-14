@@ -26,6 +26,15 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("inicio");
   const [scrolled, setScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Detectar si es mobile al montar y al redimensionar
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -89,35 +98,40 @@ export default function Navbar() {
           </span>
         </div>
 
-        {/* Links desktop */}
-        <ul style={{ display: "flex", alignItems: "center", gap: "8px", listStyle: "none" }}
-            className="hidden md:flex">
-          {currentLinks.map((link) => {
-            const sectionId = link.href.replace("#", "");
-            const isActive = activeSection === sectionId;
-            return (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  style={{
-                    padding: "8px 16px",
-                    borderRadius: "999px",
-                    fontSize: "0.875rem",
-                    fontWeight: "500",
-                    textDecoration: "none",
-                    transition: "all 0.2s",
-                    backgroundColor: isActive ? "#E8F5F3" : "transparent",
-                    color: isActive ? "#2D9B83" : darkMode ? "#cccccc" : "#555555",
-                    border: isActive ? "1px solid #5ECFB1" : "1px solid transparent",
-                  }}
-                >
-                  {link.label}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+        {/* Links desktop — solo visible en pantallas >= 768px */}
+        {!isMobile && (
+          <ul style={{
+            display: "flex", alignItems: "center",
+            gap: "8px", listStyle: "none",
+            margin: 0, padding: 0,
+          }}>
+            {currentLinks.map((link) => {
+              const sectionId = link.href.replace("#", "");
+              const isActive = activeSection === sectionId;
+              return (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    style={{
+                      padding: "8px 16px",
+                      borderRadius: "999px",
+                      fontSize: "0.875rem",
+                      fontWeight: "500",
+                      textDecoration: "none",
+                      transition: "all 0.2s",
+                      backgroundColor: isActive ? "#E8F5F3" : "transparent",
+                      color: isActive ? "#2D9B83" : darkMode ? "#cccccc" : "#555555",
+                      border: isActive ? "1px solid #5ECFB1" : "1px solid transparent",
+                    }}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        )}
 
         {/* Botones derecha */}
         <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -156,26 +170,27 @@ export default function Navbar() {
             </svg>
           </button>
 
-          {/* Hamburguesa */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden"
-            style={{
-              background: "none", border: "none", cursor: "pointer",
-              padding: "8px", borderRadius: "50%",
-              color: darkMode ? "#cccccc" : "#555555",
-            }}
-          >
-            {menuOpen ? (
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
-          </button>
+          {/* Hamburguesa — solo visible en mobile */}
+          {isMobile && (
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              style={{
+                background: "none", border: "none", cursor: "pointer",
+                padding: "8px", borderRadius: "50%",
+                color: darkMode ? "#cccccc" : "#555555",
+              }}
+            >
+              {menuOpen ? (
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          )}
         </div>
       </div>
 
@@ -183,15 +198,13 @@ export default function Navbar() {
       <div style={{ height: "2px", width: "100%", backgroundColor: "#2D9B83" }} />
 
       {/* Menú mobile */}
-      {menuOpen && (
+      {isMobile && menuOpen && (
         <div style={{
           backgroundColor: darkMode ? "#0D1F1A" : "#ffffff",
           borderTop: "1px solid #f0f0f0",
           padding: "16px 24px",
-        }}
-          className="md:hidden"
-        >
-          <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "8px" }}>
+        }}>
+          <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "8px", margin: 0, padding: 0 }}>
             {currentLinks.map((link) => {
               const sectionId = link.href.replace("#", "");
               const isActive = activeSection === sectionId;
