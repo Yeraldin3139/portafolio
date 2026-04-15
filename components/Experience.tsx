@@ -29,7 +29,7 @@ const dataEn = {
     { id: 3, titulo: "High School Graduate", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011 - 2021", descripcion: "Graduated with excellence certification in punctuality" },
   ],
   laboral: [
-    { id: 1, titulo: " Civil Registry Assistant", institucion: " Third Notary Office of Pasto", periodo: "2022-2026", descripcion: " Civil Registry Assistant" },
+    { id: 1, titulo: " Civil Registry Assistant", institucion: " Third Notary Office of Pasto", periodo: "2022 - Present", descripcion: " Civil Registry Assistant" },
     { id: 2, titulo: " Sales and Production", institucion: "Freelance", periodo: "2022 - Present", descripcion: " Sales and production of agricultural and artisanal products, leather goods, and art products" },
   ],
 };
