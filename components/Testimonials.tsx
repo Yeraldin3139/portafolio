@@ -3,7 +3,7 @@
 import { useApp } from "@/app/context";
 
 const testimoniosEs = [
-  { id: 1, text: "Yeraldin es una estudiante muy dedicada y comprometida con su aprendizaje. Siempre busca la mejor solución.", name: "Docente UCC", role: "Profesor de Ingeniería", initial: "D" },
+  { id: 1, text: "Yeraldin es muy responsable dentro del escenario laboral, el cual es el ámbito en el que la he podido tratar mayormente, dentro del mismo se destacó por ser una persona cariñosa, empática y colaboradora. ", name: "Docente UCC", role: "Profesor de Ingeniería", initial: "D" },
   { id: 2, text: "Yeraldin, Destaca por la pasión y responsabilidad que pone en cada tarea y en cada sueño. Tiene un gran talento para analizar las situaciones y resolver con creatividad todo lo que se propone.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
   { id: 3, text: "Tiene una gran capacidad para aprender nuevas tecnologías y aplicarlas de forma práctica en proyectos reales.", name: "Mentor de proyecto", role: "Desarrollador Senior", initial: "M" },
 ];
