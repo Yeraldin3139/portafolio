@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Foto */}
         <div style={{
-          width: "160px", height: "160px", borderRadius: "50%",
+          width: "220px", height: "220px", borderRadius: "50%",
           overflow: "hidden", border: "4px solid #2D9B83",
           boxShadow: "0 4px 20px rgba(45,155,131,0.3)",
           position: "relative", backgroundColor: "#1a1a1a"
