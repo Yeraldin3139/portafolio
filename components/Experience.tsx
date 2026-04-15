@@ -12,9 +12,9 @@ interface Item {
 
 const dataEs = {
   academica: [
-    { id: 1, titulo: "Bachiller Academica", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011-2021", descripcion: "graduada con certificacion de exelencia en puntualidad" },
-    { id: 2, titulo: "Estudiante de artes", institucion: "Academia Rumipamba", periodo: "2022-2026", descripcion: "reforzando mis conocimientos y desarollando mejor mi habilidad en arte(pintura, dibujo,diseño y otros)" },
-    { id: 3, titulo: "Ingenieria de Software", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Actualidad", descripcion: "Estudiante de quinto semestre, aprendiendo desarrollo web, bases de datos y programación orientada a objetos" },
+    { id: 1, titulo: "Estudiante de artes", institucion: "Academia Rumipamba", periodo: "2022 - Actualidad", descripcion: "reforzando mis conocimientos y desarollando mejor mi habilidad en arte(pintura, dibujo,diseño y otros)" },
+    { id: 2, titulo: "Ingenieria de Software", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Actualidad", descripcion: "Estudiante de quinto semestre, aprendiendo desarrollo web, bases de datos y programación orientada a objetos" },
+    { id: 3, titulo: "Bachiller Academica", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011 - 2021", descripcion: "graduada con certificacion de exelencia en puntualidad" },
   ],
   laboral: [
     { id: 1, titulo: "Asistente registro civil", institucion: "Notaria Tercera Pasto Nariño", periodo: "2022-2026", descripcion: "Asistente registro civil" },
