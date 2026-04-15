@@ -22,12 +22,11 @@ const dataEs = {
   ],
 };
 
-
 const dataEn = {
   academica: [
-    { id: 1, titulo: "High School Graduate", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011-2021", descripcion: "Graduated with excellence certification in punctuality" },
-    { id: 2, titulo: "Arts Student", institucion: "Academia Rumipamba", periodo: "2022-2026", descripcion: "Strengthening my knowledge and developing my skills in art (painting, drawing, design and others)" },
-    { id: 3, titulo: "Software Engineering", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Present", descripcion: "Fifth semester student, learning web development, databases and object-oriented programming" },
+    { id: 1, titulo: "Arts Student", institucion: "Academia Rumipamba", periodo: "2022 - Present", descripcion: "Strengthening my knowledge and developing my skills in art (painting, drawing, design and others)" },
+    { id: 2, titulo: "Software Engineering", institucion: "Universidad Cooperativa de Colombia - Campus Pasto", periodo: "2024 - Present", descripcion: "Fifth semester student, learning web development, databases and object-oriented programming" },
+    { id: 3, titulo: "High School Graduate", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011 - 2021", descripcion: "Graduated with excellence certification in punctuality" },
   ],
   laboral: [
     { id: 1, titulo: " Civil Registry Assistant", institucion: " Third Notary Office of Pasto", periodo: "2022-2026", descripcion: " Civil Registry Assistant" },
