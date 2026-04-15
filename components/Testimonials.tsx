@@ -5,13 +5,13 @@ import { useApp } from "@/app/context";
 const testimoniosEs = [
   { id: 1, text: "Yeraldin es muy responsable dentro del escenario laboral, el cual es el ámbito en el que la he podido tratar mayormente, dentro del mismo se destacó por ser una persona cariñosa, empática y colaboradora. ", name: "Diana Vanessa Bucheli Santacruz", role: "Abogada Litigante", initial: "D" },
   { id: 2, text: "Yeraldin, Destaca por la pasión y responsabilidad que pone en cada tarea y en cada sueño. Tiene un gran talento para analizar las situaciones y resolver con creatividad todo lo que se propone.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
-  { id: 3, text: "Yeraldin es una persona honesta, respetuosa comprometida con todo lo que le asignan, Tiene la habilidad de ser creativa, organizada y presta al servicio de la gente con un don de humanidad que la hace una persona sensible y persuasiva y decidida.", name: "Maricela Toro Robles ", role: "Contratistatecnologa en salud IDSN", initial: "M" },
+  { id: 3, text: "Yeraldin es una persona honesta, respetuosa comprometida con todo lo que le asignan, Tiene la habilidad de ser creativa, organizada y presta al servicio de la gente con un don de humanidad que la hace una persona sensible y persuasiva y decidida.", name: "Maricela Toro Robles ", role: "Tecnologa en salud IDSN", initial: "M" },
 ];
 
 const testimoniosEn = [
-  { id: 1, text: "Yeraldin is a very responsible young woman in the workplace, which is the environment where I have mostly had the opportunity to work with her. In this setting, she stood out for being a caring, empathetic, and collaborative person.", name: "Diana Vanessa Bucheli Santacruz", role: "Litigant Lawyer", initial: "D" },
+  { id: 1, text: "Yeraldin, is a very responsible young woman in the workplace, which is the environment where I have mostly had the opportunity to work with her. In this setting, she stood out for being a caring, empathetic, and collaborative person.", name: "Diana Vanessa Bucheli Santacruz", role: "Litigant Lawyer", initial: "D" },
   { id: 2, text: "Yeraldin, stands out for the passion and responsibility she brings to every task and every dream. She has a great talent for analyzing situations and creatively solving everything she sets her mind to.", name: "Jessika Mayaly Urbano", role: "EID group sas Manager", initial: "J" },
-  { id: 3, text: "She has a great ability to learn new technologies and apply them practically in real projects.", name: "Project Mentor", role: "Senior Developer", initial: "M" },
+  { id: 3, text: "Yeraldin, is an honest and respectful person, committed to everything assigned to her. She has the ability to be creative and organized, and she is always willing to serve others, with a sense of humanity that makes her a sensitive, persuasive, and determined individual.", name: "Maricela Toro Robles", role: "Health Technologist IDSN", initial: "M" },
 ];
 
 export default function Testimonials() {
