@@ -43,7 +43,7 @@ export default function Hero() {
             fontWeight: "800",
             color: darkMode ? "#ffffff" : "#1a1a1a",
           }}>
-            {lang === "es" ? "Hola, soy Yeraldin" : "Hi, I'm Yeraldin"}
+            {lang === "es" ? "Hola, soy Yeraldin Araujo" : "Hi, I'm Yeraldin"}
           </h1>
           <p style={{ fontSize: "1.125rem", fontWeight: "500", color: "#2D9B83" }}>
             {lang === "es" ? "Estudiante de ingenieria de software" : "Software engineering student"}
