@@ -5,7 +5,7 @@ import { useApp } from "@/app/context";
 const testimoniosEs = [
   { id: 1, text: "Yeraldin es muy responsable dentro del escenario laboral, el cual es el ámbito en el que la he podido tratar mayormente, dentro del mismo se destacó por ser una persona cariñosa, empática y colaboradora. ", name: "Diana Vanessa Bucheli Santacruz", role: "Abogada Litigante", initial: "D" },
   { id: 2, text: "Yeraldin, Destaca por la pasión y responsabilidad que pone en cada tarea y en cada sueño. Tiene un gran talento para analizar las situaciones y resolver con creatividad todo lo que se propone.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
-  { id: 3, text: "Tiene una gran capacidad para aprender nuevas tecnologías y aplicarlas de forma práctica en proyectos reales.", name: "Mentor de proyecto", role: "Desarrollador Senior", initial: "M" },
+  { id: 3, text: "Yeraldin es una persona honesta, respetuosa comprometida con todo lo que le asignan, Tiene la habilidad de ser creativa, organizada y presta al servicio de la gente con un don de humanidad que la hace una persona sensible y persuasiva y decidida.", name: "Mentor de proyecto", role: "Desarrollador Senior", initial: "M" },
 ];
 
 const testimoniosEn = [
