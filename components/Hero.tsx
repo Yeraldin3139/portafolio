@@ -46,7 +46,7 @@ export default function Hero() {
             {lang === "es" ? "Hola, soy Yeraldin Araujo" : "Hi, I'm Yeraldin Araujo"}
           </h1>
           <p style={{ fontSize: "1.125rem", fontWeight: "500", color: "#2D9B83" }}>
-            {lang === "es" ? "Estudiante de ingenieria de software" : "Software engineering student"}
+            {lang === "es" ? "Estudiante de ingeniería de software y artista en constante formación. Dedicada a transformar ideas complejas en experiencias digitales funcionales, aportando una sensibilidad estética única a cada proyecto de desarrollo." : "Software engineering student and artist in the making. Dedicated to transforming complex ideas into functional digital experiences, bringing a unique aesthetic sensitivity to every development project."}
           </p>
           <p style={{ fontSize: "0.875rem", color: darkMode ? "#aaaaaa" : "#888888" }}>
             {lang === "es"
