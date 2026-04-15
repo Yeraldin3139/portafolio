@@ -13,7 +13,7 @@ export default function About() {
       p2: "Me gusta aprender nuevas tecnologías y aplicarlas para resolver problemas. me interesa la importancia de la accesibilidad y la experiencia de usuario.",
       p3: "En mi tiempo libre me apaciona ampliar y desarrolar mis conocimientos del arte (pintura, dibujo, diseño, entre otros)",
       habilidades: [
-        { titulo: "Desarrollo Frontend", subtitulo: "React, TypeScript, Tailwind CSS" },
+        { titulo: "Desarrollo", subtitulo: "React, TypeScript, Tailwind CSS" },
         { titulo: "Diseño UI/UX", subtitulo: "Diseño responsive, accesibilidad" },
         { titulo: "Optimización", subtitulo: "mejores prácticas" },
       ],
@@ -24,7 +24,7 @@ export default function About() {
       p2: "I enjoy learning new technologies and applying them to solve problems. I care about accessibility and user experience.",
       p3: "In my free time I love expanding my knowledge of art (painting, drawing, design, among others)",
       habilidades: [
-        { titulo: "Frontend Development", subtitulo: "React, TypeScript, Tailwind CSS" },
+        { titulo: "Development", subtitulo: "React, TypeScript, Tailwind CSS" },
         { titulo: "UI/UX Design", subtitulo: "Responsive design, accessibility" },
         { titulo: "Optimization", subtitulo: "best practices" },
       ],
