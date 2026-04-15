@@ -9,7 +9,7 @@ export default function About() {
   const textos = {
     es: {
       titulo: "Acerca de mí",
-      p1: "Soy estudiante de quinto semestre de ingenieria de software de la Universidad Cooperativa de Colombia - Campus Pasto",
+      p1: "Soy Yeraldin Araujo, estudiante de quinto semestre de ingenieria de software de la Universidad Cooperativa de Colombia - Campus Pasto",
       p2: "Me gusta aprender nuevas tecnologías y aplicarlas para resolver problemas. me interesa la importancia de la accesibilidad y la experiencia de usuario.",
       p3: "En mi tiempo libre me apaciona ampliar y desarrolar mis conocimientos del arte (pintura, dibujo, diseño, entre otros)",
       habilidades: [
