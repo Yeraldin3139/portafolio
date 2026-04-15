@@ -88,13 +88,13 @@ export default function Navbar() {
             alignItems: "center", justifyContent: "center",
             color: "white", fontWeight: "700", fontSize: "0.875rem"
           }}>
-            Y
+            S
           </div>
           <span style={{
             fontWeight: "700", fontSize: "1.125rem",
             color: darkMode ? "#ffffff" : "#1a1a1a"
           }}>
-            Yeraldin
+            Sayis Araujo
           </span>
         </div>
 
