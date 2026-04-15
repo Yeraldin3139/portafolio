@@ -17,7 +17,7 @@ const dataEs = {
     { id: 3, titulo: "Bachiller Academica", institucion: "Colegio Filipense 'Nuestra Señora de la Esperanza'", periodo: "2011 - 2021", descripcion: "graduada con certificacion de exelencia en puntualidad" },
   ],
   laboral: [
-    { id: 1, titulo: "Asistente registro civil", institucion: "Notaria Tercera Pasto Nariño", periodo: "2022-2026", descripcion: "Asistente registro civil" },
+    { id: 1, titulo: "Asistente registro civil", institucion: "Notaria Tercera Pasto Nariño", periodo: "2022 - Actualidad", descripcion: "Asistente registro civil" },
     { id: 2, titulo: "venta y produccion", institucion: "Independiente", periodo: "2022 - Actualidad", descripcion: "venta y produccion de productos agricolas, artesanales, maroquineria y de productos de arte" },
   ],
 };
