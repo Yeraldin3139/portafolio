@@ -41,7 +41,7 @@ export default function Footer() {
                 fontWeight: "700", fontSize: "0.875rem",
               }}>Y</div>
               <span style={{ fontWeight: "700", fontSize: "1.125rem", color: "#ffffff" }}>
-                Yeraldin
+                Sayis Araujo
               </span>
             </div>
             <p style={{ fontSize: "0.875rem", color: "#2D9B83" }}>
