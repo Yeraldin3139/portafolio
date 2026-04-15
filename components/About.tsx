@@ -76,7 +76,7 @@ export default function About() {
             overflow: "hidden", position: "relative",
             backgroundColor: "#1a1a1a", flexShrink: 0,
           }}>
-            <Image src="/images/foto.jpg" alt="Yeraldin" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/foto2.jpg" alt="Yeraldin" fill style={{ objectFit: "cover" }} />
           </div>
         </div>
 

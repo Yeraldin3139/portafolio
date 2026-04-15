@@ -33,7 +33,7 @@ export default function Hero() {
           boxShadow: "0 4px 20px rgba(45,155,131,0.3)",
           position: "relative", backgroundColor: "#1a1a1a"
         }}>
-          <Image src="/images/foto2.jpg" alt="Yeraldin" fill style={{ objectFit: "cover" }} priority />
+          <Image src="/images/foto.jpg" alt="Yeraldin" fill style={{ objectFit: "cover" }} priority />
         </div>
 
         {/* Textos */}
