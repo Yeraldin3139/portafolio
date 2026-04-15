@@ -20,7 +20,7 @@ export default function About() {
     },
     en: {
       titulo: "About me",
-      p1: "I am a fifth semester software engineering student at Universidad Cooperativa de Colombia - Campus Pasto",
+      p1: "I am Yeraldin Araujo, a fifth semester software engineering student at Universidad Cooperativa de Colombia - Campus Pasto",
       p2: "I enjoy learning new technologies and applying them to solve problems. I care about accessibility and user experience.",
       p3: "In my free time I love expanding my knowledge of art (painting, drawing, design, among others)",
       habilidades: [
