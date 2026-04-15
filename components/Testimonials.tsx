@@ -3,14 +3,14 @@
 import { useApp } from "@/app/context";
 
 const testimoniosEs = [
-  { id: 1, text: "Yeraldin es muy responsable dentro del escenario laboral, el cual es el ámbito en el que la he podido tratar mayormente, dentro del mismo se destacó por ser una persona cariñosa, empática y colaboradora. ", name: "Docente UCC", role: "Profesor de Ingeniería", initial: "D" },
+  { id: 1, text: "Yeraldin es muy responsable dentro del escenario laboral, el cual es el ámbito en el que la he podido tratar mayormente, dentro del mismo se destacó por ser una persona cariñosa, empática y colaboradora. ", name: "Diana Vanessa Bucheli Santacruz", role: "Abogada Litigante", initial: "D" },
   { id: 2, text: "Yeraldin, Destaca por la pasión y responsabilidad que pone en cada tarea y en cada sueño. Tiene un gran talento para analizar las situaciones y resolver con creatividad todo lo que se propone.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
   { id: 3, text: "Tiene una gran capacidad para aprender nuevas tecnologías y aplicarlas de forma práctica en proyectos reales.", name: "Mentor de proyecto", role: "Desarrollador Senior", initial: "M" },
 ];
 
 const testimoniosEn = [
-  { id: 1, text: "Yeraldin is a very dedicated and committed student. She always looks for the best solution.", name: "UCC Teacher", role: "Engineering Professor", initial: "T" },
-  { id: 2, text: "Yeraldin, stands out for the passion and responsibility she brings to every task and every dream. She has a great talent for analyzing situations and creatively solving everything she sets her mind to.", name: "Jessika Mayaly Urbano", role: "gerente de EID group sas", initial: "J" },
+  { id: 1, text: "Yeraldin is a very responsible young woman in the workplace, which is the environment where I have mostly had the opportunity to work with her. In this setting, she stood out for being a caring, empathetic, and collaborative person.", name: "Diana Vanessa Bucheli Santacruz", role: "Litigant Lawyer", initial: "D" },
+  { id: 2, text: "Yeraldin, stands out for the passion and responsibility she brings to every task and every dream. She has a great talent for analyzing situations and creatively solving everything she sets her mind to.", name: "Jessika Mayaly Urbano", role: "EID group sas Manager", initial: "J" },
   { id: 3, text: "She has a great ability to learn new technologies and apply them practically in real projects.", name: "Project Mentor", role: "Senior Developer", initial: "M" },
 ];
 
